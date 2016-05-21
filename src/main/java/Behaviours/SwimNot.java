@@ -5,7 +5,9 @@ package Behaviours;
  */
 public class SwimNot implements SwimBehaviour {
 
-    public void swim() {
-        System.out.println("I can not swim");
+    public String swim() {
+        String text = "I can not swim";
+        System.out.println(text);
+        return text;
     }
 }

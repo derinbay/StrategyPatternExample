@@ -5,5 +5,5 @@ package Behaviours;
  */
 public interface TweetBehaviour {
 
-    void tweet();
+    String tweet();
 }

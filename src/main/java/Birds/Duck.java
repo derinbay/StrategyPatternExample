@@ -5,7 +5,9 @@ package Birds;
  */
 public class Duck extends Bird {
 
-    public void show() {
-        System.out.println("I am a duck");
+    public String show() {
+        String text = "I am a duck";
+        System.out.println(text);
+        return text;
     }
 }

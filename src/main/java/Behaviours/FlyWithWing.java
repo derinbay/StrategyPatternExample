@@ -7,7 +7,9 @@ import Behaviours.FlyBehaviour;
  */
 public class FlyWithWing implements FlyBehaviour {
 
-    public void fly() {
-        System.out.println("I can fly with wing");
+    public String fly() {
+        String text = "I can fly with wing";
+        System.out.println(text);
+        return text;
     }
 }

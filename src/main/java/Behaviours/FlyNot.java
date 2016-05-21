@@ -5,7 +5,9 @@ package Behaviours;
  */
 public class FlyNot implements FlyBehaviour {
 
-    public void fly() {
-        System.out.println("I can not fly");
+    public String fly() {
+        String text = "I can not fly";
+        System.out.println(text);
+        return text;
     }
 }

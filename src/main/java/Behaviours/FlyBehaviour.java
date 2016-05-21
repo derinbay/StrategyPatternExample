@@ -5,5 +5,5 @@ package Behaviours;
  */
 public interface FlyBehaviour {
 
-    void fly();
+    String fly();
 }

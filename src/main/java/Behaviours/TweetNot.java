@@ -5,7 +5,9 @@ package Behaviours;
  */
 public class TweetNot implements TweetBehaviour {
 
-    public void tweet() {
-        System.out.println("I can not tweet");
+    public String tweet() {
+        String text = "I can not tweet";
+        System.out.println(text);
+        return text;
     }
 }

@@ -5,7 +5,9 @@ package Behaviours;
  */
 public class TweetAsCikcik implements TweetBehaviour {
 
-    public void tweet() {
-        System.out.println("I can tweet as cikcik");
+    public String tweet() {
+        String text = "I can tweet as cikcik";
+        System.out.println(text);
+        return text;
     }
 }

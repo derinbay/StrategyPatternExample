@@ -13,16 +13,22 @@ public abstract class Bird {
 
     private final String bird = this.getClass().getName();
 
-    public void walk() {
-        System.out.println("I can walk");
+    public String walk() {
+        String text = "I can walk";
+        System.out.println(text);
+        return text;
     }
 
-    public void eat() {
-        System.out.println("I can eat");
+    public String eat() {
+        String text = "I can eat";
+        System.out.println(text);
+        return text;
     }
 
-    public void show() {
+    public String show() {
+        String text  = "I am a bird";
         System.out.println("I am a bird");
+        return text;
     }
 
     private void decideSwimBehaviour() {
@@ -53,18 +59,18 @@ public abstract class Bird {
         }
     }
 
-    public void trySwim() {
+    public String trySwim() {
         decideSwimBehaviour();
-        swimBehaviour.swim();
+        return swimBehaviour.swim();
     }
 
-    public void tryTweet() {
+    public String tryTweet() {
         decideTweetBehaviour();
-        tweetBehaviour.tweet();
+        return tweetBehaviour.tweet();
     }
 
-    public void tryFly() {
+    public String tryFly() {
         decideFlyBehaviour();
-        flyBehaviour.fly();
+        return flyBehaviour.fly();
     }
 }

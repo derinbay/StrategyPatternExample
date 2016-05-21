@@ -5,5 +5,5 @@ package Behaviours;
  */
 public interface SwimBehaviour {
 
-    void swim();
+    String swim();
 }
